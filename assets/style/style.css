@@ -53,10 +53,6 @@ header {
   padding-right: 20px;
 }
 
-/* .area-logo{
-    background-color: #F1F3FF;
-} */
-
 .btn-register {
   background-color: #5cb85f !important;
   border: none !important;
@@ -90,9 +86,6 @@ header {
   /* padding-top: 120px; */
 }
 
-.header-content {
-}
-
 .dec-area img {
   position: absolute;
   bottom: 0;
@@ -111,3 +104,143 @@ header {
 } */
 
 /* END MAIN AREA */
+/* OUR SEVICE */
+
+.service {
+  align-items: center;
+  height: 600px;
+  /* justify-content: flex-end; */
+  /* background-color: #5cb85f; */
+}
+
+.service li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.service li img {
+  border-radius: 50%;
+  background-color: #cfd4ed;
+  color: #0d28a6;
+  margin-right: 20px;
+}
+
+/* END OUR SERVICE */
+/* WHY US */
+
+.card-area {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: #0d28a6; */
+  gap: 10px;
+}
+
+.card-area .card {
+  /* position: absolute; */
+  width: 300px;
+  height: 200px;
+}
+
+.why-us .card img {
+  margin-bottom: 15px;
+}
+
+/* END WHY US */
+/* CAROUSEL */
+.carousel-inner {
+  height: 300px;
+}
+
+.carousel-item {
+  background-color: #0d28a6;
+}
+
+/* END CAROUSEL */
+/* CARD MOBIL */
+
+.card-mobil {
+  width: 100%;
+  height: 250px;
+  background-color: #0d28a6;
+  color: white;
+  border-radius: 13px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dec-card {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.dec-card h2 {
+  text-align: center;
+}
+
+.dec-card p {
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.dec-card button {
+  margin: 30px;
+}
+/* END CARD MOBIL */
+/* FAQ */
+.faq {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 0;
+  height: 100%;
+}
+
+.drop-menu {
+  background-color: white;
+  /* text-align: left; */
+  color: black;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  /* border-color: 1px solid red; */
+  /* border-style: solid; */
+}
+
+/* .dropdown-toggle {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border-color: #cfd4ed;
+} */
+
+/* END FAQ */
+/* FOOTER */
+
+.footer .row {
+  justify-content: space-between;
+}
+
+.footer p {
+  list-style: none;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.footer h5 {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-icon img {
+  padding-right: 15px;
+}
+/* END FOOTER */
