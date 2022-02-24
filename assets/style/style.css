@@ -7,6 +7,23 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+body {
+  overflow-x: hidden;
 }
 
 .container {
@@ -17,7 +34,18 @@
 
 /* END GLOBAL STYLE */
 /* NAVBAR */
+.area-fnav ul li a {
+  font-weight: bold;
+}
 
+.nav-link {
+  display: inline !important;
+  color: black;
+  padding: 0;
+}
+.logo-nav {
+  align-items: center;
+}
 header {
   padding: 0%;
   height: 100%;
@@ -25,21 +53,32 @@ header {
 
 .area-nav {
   background-color: #f1f3ff;
-  text-align: left;
+  width: 100vw;
   height: 50px;
   padding: 0;
   margin: 0;
-  color: black;
+  position: fixed;
+  z-index: 10;
 }
 
 .logo {
   background-color: blue;
   padding: 0;
   margin: 0;
-  /* text-align: top; */
   text-align: center;
   height: 34px;
 }
+
+.area-fnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area-logo {
+  width: 100px;
+}
+
 .area-nav ul {
   list-style: none;
   text-align: right;
@@ -59,7 +98,6 @@ header {
 }
 
 .header-area {
-  /* position: absolute; */
   padding: 0;
   text-align: right;
 
@@ -72,7 +110,7 @@ header {
 .main-area {
   padding: 0;
   margin: 0;
-  height: 430px;
+  height: 460px;
   background-color: #5cb85f;
   position: relative;
 }
@@ -99,18 +137,12 @@ header {
   }
 }
 
-/* .card-content {
-  text-align: left;
-} */
-
 /* END MAIN AREA */
 /* OUR SEVICE */
 
 .service {
   align-items: center;
   height: 600px;
-  /* justify-content: flex-end; */
-  /* background-color: #5cb85f; */
 }
 
 .service li {
@@ -121,25 +153,33 @@ header {
 
 .service li img {
   border-radius: 50%;
-  background-color: #cfd4ed;
   color: #0d28a6;
   margin-right: 20px;
 }
 
+.our-ser {
+  padding-left: 60px;
+}
+
 /* END OUR SERVICE */
 /* WHY US */
+.why-us {
+  margin-bottom: 50px;
+}
 
+.card-doang {
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+}
 .card-area {
   flex-direction: row;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* background-color: #0d28a6; */
   gap: 10px;
 }
 
 .card-area .card {
-  /* position: absolute; */
   width: 300px;
   height: 200px;
 }
@@ -150,12 +190,65 @@ header {
 
 /* END WHY US */
 /* CAROUSEL */
-.carousel-inner {
-  height: 300px;
+.desk h4,
+.desk p {
+  text-align: center;
 }
 
+.caro-row {
+  position: relative;
+  left: 50%;
+  transform: translateX(-49%);
+  width: 2500px;
+}
+
+.card-aja {
+  display: flex;
+  justify-content: center;
+  height: 270px;
+}
+
+.card {
+  background-color: #f1f3ff;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.card-caro {
+  border-radius: 10px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 619px;
+  padding: 0 20px;
+  justify-content: center;
+}
 .carousel-item {
-  background-color: #0d28a6;
+  width: 100%;
+}
+.img-rate {
+  margin-bottom: 4px;
+}
+.card-img-top {
+  width: 100px;
+  height: 100px;
+}
+.btn-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.carousel-control {
+  border: none;
+  background-color: #5cb85f;
+  border-radius: 50%;
+  margin: 20px 0 50px 10px;
+  border: 1px solid #c4c4c4;
+  /* color: #c4c4c4; */
+  padding-top: 4px;
 }
 
 /* END CAROUSEL */
@@ -204,22 +297,21 @@ header {
 
 .drop-menu {
   background-color: white;
-  /* text-align: left; */
   color: black;
   width: 100%;
   height: 60px;
   margin-bottom: 15px;
-  /* border-color: 1px solid red; */
-  /* border-style: solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-/* .dropdown-toggle {
-  width: 100%;
-  height: 40px;
-  background-color: white;
-  color: black;
-  border-color: #cfd4ed;
-} */
+.accordion-item {
+  border: 1px solid #e6e6e6 !important;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
 
 /* END FAQ */
 /* FOOTER */
@@ -242,5 +334,12 @@ header {
 
 .footer-icon img {
   padding-right: 15px;
+}
+
+.kotak {
+  margin-top: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: #0d28a6;
 }
 /* END FOOTER */
