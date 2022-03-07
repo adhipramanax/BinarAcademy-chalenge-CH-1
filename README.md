@@ -1,4 +1,4 @@
-# My First Website
+# Project Chapter-1 Binar Academy
 Project: Project Chapter-1 Binar Academy
 
 Description: web site ini merupakan tugas dari program MSIB di BInar Academy membuat wesite statis yang telah ditentukan kriteria dan desainnya.
